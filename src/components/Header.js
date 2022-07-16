@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header(isDarkMode,onDarkModeClick) {
+function Header({isDarkMode,onDarkModeClick}) {
   return (
     <div>
       <header>
